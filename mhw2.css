@@ -1,0 +1,99 @@
+header {
+  background-image: url(im1.jpg);
+  background-size: cover;
+  background-position: center; 
+  padding: 0px;
+  height: 600px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#ricerca{
+  display: flex;
+  position:absolute;
+  margin-top: 900px;
+  margin-left: 30px;
+}
+
+header nav {
+  position: absolute;
+  font-family: 'East Sea Dokdo', cursive;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 40px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section{
+  background-image: url(Covernews.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+:root{
+  --answer-padding:10px;
+}
+
+.hidden{
+  display: none;
+}
+
+.Event{
+  border: 1px solid black;
+  width: calc(32,5% - 2*var(--answer-padding));
+  padding: var(--answer-padding);
+  margin-bottom: 20px;
+}
+.Event image {
+  width: 100%;
+}
+.Stella{
+  display: flex;
+}
+.more_info{
+  display:flex;
+}
+@media (max-width:500px) {
+  .Event{
+    width: 49%;
+  }
+}
+
+#final{
+  font-family: 'Caveat',cursive;
+  background-image: url(coverFinal.png);
+  background-size: cover;
+  background-position: center;
+  padding: 0px;
+  margin-top: -30px ;
+}
+
+#ref{
+  display: flex;
+  flex-direction:column;
+}
+#ref a{
+  margin-top: 20px;
+  font-size: 35px;
+}
+#social{
+  display: inline;
+}
+#social a{
+  margin-bottom: 30px;
+  font-size: 35px ;
+}
+#social img{
+  margin-top: -35px;
+}
+#final a{
+  display: flex;
+}
